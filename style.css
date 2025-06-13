@@ -352,6 +352,26 @@ section,
   color: #444;
 }
 
+.service-card.premium {
+  border: 2px solid #f97316;
+  background-color: #fff7f2;
+  position: relative;
+}
+
+.service-card.premium::before {
+  content: "Billed Separately";
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #f97316;
+  color: white;
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 
 /*Price Section*/
 .pricing-section {
